@@ -81,7 +81,7 @@ def calcular_varianza(datos, media):
     for numero in datos:
         suma_diff_cuadrados += (numero - media) ** 2
 
-    return suma_diff_cuadrados / (len(datos) - 1)
+    return suma_diff_cuadrados / len(datos)
 
 
 def calcular_desviacion_estandar(varianza):
